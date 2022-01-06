@@ -8,7 +8,7 @@ const useimgstyle = makeStyles({
     }
 })
 const charDetailCard = ({ items }) => {
-    console.log(items);
+    //console.log(EpiItems);
     const imgclasses = useimgstyle();
     return (
         <Tooltip title={

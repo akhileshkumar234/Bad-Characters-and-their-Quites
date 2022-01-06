@@ -42,6 +42,12 @@ const Navbar = ({getName}) => {
                     <Box className={classes.Iconsearch}>
                         <SearchIcon />
                     </Box>
-                    <InputBase placeholder="Search by name" autoFocus
+                    <InputBase placeholder="Search by name" 
                     onChange={(event)=>getName(event.target.value)}
-                    
+                    classes={{ root: classes.inputBox }} autoFocus/>
+                </Box>
+            </Toolbar>
+        </AppBar>
+    );
+}
+export default Navbar;
